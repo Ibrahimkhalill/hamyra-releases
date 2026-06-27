@@ -1,0 +1,8 @@
+{
+  "versionCode": 2,
+  "versionName": "1.1",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.1/app-release.apk",
+  "releaseNotes": "• Match-এর জন্য notification reminder (kickoff-এর ১০ মিনিট আগে alert)\n• Fullscreen properly কাজ করছে — back button + bottom controls কাটছে না\n• Channel player landscape-এ smooth — exit-fullscreen জাম্প করছে না\n• In-app update prompt added — নতুন version এলে এখানে notify হবে\n• Performance improvements",
+  "forceUpdate": false,
+  "minRequiredVersionCode": 1
+}
