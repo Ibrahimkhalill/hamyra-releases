@@ -1,8 +1,8 @@
 {
   "versionCode": 5,
   "versionName": "1.2.2",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.2/app-release.apk",
-  "releaseNotes": "fix: T Sports revert + VPS HLS proxy for geo-locked channels\n\n- Revert T Sports streamUrl to the v1.1 mhdtvsport.site wrapper.\n  Direct Akamai URLs returned 200 for master.m3u8 but 404 for\n  the variant playlists due to Akamai's per-session/per-IP\n  affinity \u2014 wrapper mediates that for us.\n- Add Caz\u00e9TV (Brazil-only YouTube live) to World Cup tab.\n- Add a generic VPS HLS proxy in feed-server.py:\n    /yt/<slug>/master.m3u8       resolves + rewrites manifest\n    /yt/seg?c=<cc>&u=<b64>       proxies each segment via Decodo\n                                 of country <cc>, optionally adds\n                                 Referer if the channel is in\n                                 HLS_REFERER_CHANNELS.\n  Supports two source types: YouTube live (yt-dlp resolved) and\n  fixed Akamai/HLS URLs requiring Referer.\n- Trim live DVR window to 30 segments so 5MB YT playlists become\n  ~49KB \u2014 ExoPlayer no longer times out parsing them.\n- yt-dlp now picks <=720p variant for Caz\u00e9TV so the BR proxy hop\n  can sustain segment bandwidth.",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/1.2.3/Hamyra.apk",
+  "releaseNotes": "Release 1.2.3",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
