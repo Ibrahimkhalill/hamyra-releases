@@ -1,8 +1,8 @@
 {
-  "versionCode": 6,
-  "versionName": "1.2.3",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.3/Hamyra.apk",
-  "releaseNotes": "release: 1.2.3 (versionCode 6) \u2014 player flush-to-top + harvest cadence\n\n- Player: remove the status-bar gap above the 16:9 video in portrait\n  (PlayerScreen, MatchPlayerScreen); top controls now self-pad so the\n  back button still clears the status bar (LivePlayer, MatchStreamPlayer).\n- smart_scheduler.py: harvest each match as a series (-30m/+5m/+5h/+10h)\n  and keep refreshing live matches up to 11h, so Akamai tokens stay fresh.\n- Docs: OPERATIONS.md + claude.md updated for the new cadence.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>",
+  "versionCode": 7,
+  "versionName": "1.2.4",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.4/Hamyra.apk",
+  "releaseNotes": "\u26a1 Smoother video player \u2014 removed the gap above the player\n\ud83c\udfc6 World Cup & live channel improvements\n\ud83d\udc1b Stability and performance fixes",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
