@@ -1,8 +1,8 @@
 {
-  "versionCode": 8,
-  "versionName": "1.2.5",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.5/app-release.apk",
-  "releaseNotes": "We added new features and improved the app for a smoother experience.\n\nThanks for using Hamyra!",
+  "versionCode": 9,
+  "versionName": "1.2.6",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.6/app-release.apk",
+  "releaseNotes": "- Anonymous install + active-user counter (VPS-side, no PII)\n- Cleaner server picker: hide fake alternates that route to same URL\n- CI: sanitize tag annotation, strip Co-Authored-By + release: lines\n- CI: fetch-tags so annotated tag messages are available",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
