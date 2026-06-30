@@ -1,8 +1,8 @@
 {
-  "versionCode": 9,
-  "versionName": "1.2.6",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.6/app-release.apk",
-  "releaseNotes": "- Anonymous install + active-user counter (VPS-side, no PII)\n- Cleaner server picker: hide fake alternates that route to same URL\n- CI: sanitize tag annotation, strip Co-Authored-By + release: lines\n- CI: fetch-tags so annotated tag messages are available",
+  "versionCode": 10,
+  "versionName": "1.2.7",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.7/app-release.apk",
+  "releaseNotes": "- Stop pulling Toffee dynamic posters for FIFA channel cards\n  (their images bake in Server 1/Server 2 promo badges)\n- Keep dynamic match title from Toffee, drop the poster image",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
