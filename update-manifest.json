@@ -2,7 +2,7 @@
   "versionCode": 10,
   "versionName": "1.2.7",
   "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.7/app-release.apk",
-  "releaseNotes": "- Stop pulling Toffee dynamic posters for FIFA channel cards\n  (their images bake in Server 1/Server 2 promo badges)\n- Keep dynamic match title from Toffee, drop the poster image",
+  "releaseNotes": "We added new features and improved the app for a smoother experience.\n\nThanks for using Hamyra!",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
