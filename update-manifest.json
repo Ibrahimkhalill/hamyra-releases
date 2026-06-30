@@ -2,7 +2,7 @@
   "versionCode": 8,
   "versionName": "1.2.5",
   "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.5/app-release.apk",
-  "releaseNotes": "release: v1.2.5 (versionCode 8)\n\n- Tapmad direct-API harvester replaces Playwright (12s vs 125s)\n- AES-CBC stream decryption + on-VPS JWT cache\n- ContentGenraName authoritative sport classifier\n- News-placeholder channels (Samaa News etc.) filtered out\n- Kickoff timezone corrected: BD UTC+6 (was PKT UTC+5)\n- Rich live-premium + upcoming endpoints with Cloudflare bypass\n- World Cup tab trimmed to working channels + new Robi FIFA\n- UpdateChecker: dismissals persist; debug version bumped ahead of manifest\n- bd-stream.netlify.app link replaced with hamyra.vercel.app\n- Match Highlights count 60->200 to surface newest matches\n- Settings dialog version pulled from BuildConfig (was hardcoded 1.0)\n\nCo-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>",
+  "releaseNotes": "We added new features and improved the app for a smoother experience.\n\nThanks for using Hamyra!",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
