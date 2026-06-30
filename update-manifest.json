@@ -1,8 +1,8 @@
 {
-  "versionCode": 13,
-  "versionName": "1.2.10",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.10/Hamyra.apk",
-  "releaseNotes": "Please update to the latest version.\n\nWe've improved the system to give you a smoother experience.\n\nEnjoy the new update!\n\nThank you for using Hamyra!",
+  "versionCode": 0,
+  "versionName": "0.0",
+  "apkUrl": "",
+  "releaseNotes": "No release yet.",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
