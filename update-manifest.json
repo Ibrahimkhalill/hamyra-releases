@@ -1,8 +1,8 @@
 {
-  "versionCode": 11,
-  "versionName": "1.2.8",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.8/app-release.apk",
-  "releaseNotes": "- Replace Favorites tab with full YouTube browser\n- Trending feed (categories: All / Music / Sports / News / ...)\n- Search with autocomplete (suggestqueries.google.com, no API quota)\n- Watch page: player + title + channel + Up next (no comments/likes)\n- Resolves video URLs directly on-device via YouTube's Innertube API\n  (no VPS needed \u2014 phone's residential IP avoids datacenter bot block)\n- Prefer IPv4 for HTTP so AVD/some BD ISPs that lack reliable IPv6 paths\n  to googlevideo still play",
+  "versionCode": 12,
+  "versionName": "1.2.9",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.2.9/app-release.apk",
+  "releaseNotes": "A new update is available.\n\nWe've improved the app for a smoother experience.\n\nThank you for using Hamyra!",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
