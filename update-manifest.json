@@ -1,8 +1,8 @@
 {
-  "versionCode": 11,
-  "versionName": "1.8",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.8/Hamyra.apk",
-  "releaseNotes": "Please update to the latest version.\n\nWe've improved the system to give you a smoother experience.\n\nEnjoy the new update!\n\nThank you for using Hamyra!",
+  "versionCode": 12,
+  "versionName": "1.9",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.9/Hamyra.apk",
+  "releaseNotes": "• Contact Us section added in Settings — Website, Facebook, YouTube links\n• Subtitle delay/sync control added for Movie & Series playback\n• Fixed video player top/bottom icon row not lining up on the right edge\n• Fixed SAFF Championship matches repeating the same league label on every card\n• My List redesigned to match the rest of the app's poster cards\n• Several smaller bug fixes and performance improvements\n\nThank you for using Hamyra!",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
