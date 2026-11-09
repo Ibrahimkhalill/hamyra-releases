@@ -1,0 +1,7 @@
+{
+  "_comment": "Hamyra app remote config. Change backend here to switch servers WITHOUT an app rebuild. app reads this at launch; falls back to the hardcoded default if unreachable.",
+  "schema": 1,
+  "backend": "https://api.hamyra.xyz",
+  "backup": "https://backup.hamyra.xyz",
+  "updated": "2026-11-09"
+}
