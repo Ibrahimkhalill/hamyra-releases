@@ -1,8 +1,8 @@
 {
-  "versionCode": 12,
-  "versionName": "1.9",
-  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.9/Hamyra.apk",
-  "releaseNotes": "• Contact Us section added in Settings — Website, Facebook, YouTube links\n• Subtitle delay/sync control added for Movie & Series playback\n• Fixed video player top/bottom icon row not lining up on the right edge\n• Fixed SAFF Championship matches repeating the same league label on every card\n• My List redesigned to match the rest of the app's poster cards\n• Several smaller bug fixes and performance improvements\n\nThank you for using Hamyra!",
+  "versionCode": 13,
+  "versionName": "2.0",
+  "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v2.0/Hamyra.apk",
+  "releaseNotes": "• Faster playback — Hamyra HD & all servers load instantly, no waiting\n• Every server shows up front with a loader (movies + series); the first ready one auto-plays\n• Hindi badge on servers that carry Hindi audio\n• Downloads redesigned — thumbnails, cleaner cards, a menu (Save to Gallery / Delete), and downloads play inside the app\n• Hindi-Dubbed Anime now powered by MovieLinkBD — accurate titles, instant play\n• Discover: Trending People shows real celebrities — tap to see their films\n• Live Sports schedule fixed\n• Many playback & stability fixes\n\nThank you for using Hamyra!",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
