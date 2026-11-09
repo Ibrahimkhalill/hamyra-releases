@@ -1,7 +1,16 @@
 {
-  "_comment": "Hamyra app remote config. Change backend here to switch servers WITHOUT an app rebuild. app reads this at launch; falls back to the hardcoded default if unreachable.",
-  "schema": 1,
+  "_comment": "Hamyra app remote config. Switch servers WITHOUT an app rebuild. The app reads this at launch and uses these lists for auto-failover: it starts on the first (primary) entry and rotates to the next on failure/outage. Put a genuinely independent worker as a 2nd 'workers' entry for real redundancy. Falls back to hardcoded defaults if unreachable.",
+  "schema": 2,
   "backend": "https://api.hamyra.xyz",
   "backup": "https://backup.hamyra.xyz",
+  "backends": [
+    "https://api.hamyra.xyz",
+    "https://backup.hamyra.xyz"
+  ],
+  "worker": "https://hamyra-api.mdibrahimkhalil516.workers.dev",
+  "workers": [
+    "https://hamyra-api.mdibrahimkhalil516.workers.dev",
+    "https://hamyra-api.aininjaibrahim.workers.dev"
+  ],
   "updated": "2026-11-09"
 }
