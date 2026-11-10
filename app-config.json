@@ -1,6 +1,7 @@
 {
   "_comment": "Hamyra app remote config. Switch servers WITHOUT an app rebuild. The app reads this at launch and uses these lists for auto-failover: it starts on the first (primary) entry and rotates to the next on failure/outage. Put a genuinely independent worker as a 2nd 'workers' entry for real redundancy. Falls back to hardcoded defaults if unreachable.",
   "_note_2026-11-11": "backup.hamyra.xyz temporarily removed from backends/backup: it's a home-PC read-only DB-snapshot mirror whose running container was serving stale code (403'd /mlbd/category, which the current source already exempts) -- AND AppConfig's failover is one-way/sticky, so any device that failed over to it during the main VPS's recent CPU-overload window had no way back. api.hamyra.xyz (16GB RAM VPS) is healthy; pinning both fields to it removes the failover rotation entirely (backends.size<2 short-circuits probeBackendFailover/reportBackendFailure) until backup is verified fixed and reinstated.",
+  "_note_2026-11-11b": "hamyra-api.aininjaibrahim.workers.dev (old CF account) removed from workers[]: it is STILL hitting the free-tier 100k req/day cap (Cloudflare error 1027 on every route, including /auth/token and /mlbd/movie/). AppConfig's worker failover is the SAME one-way/sticky design as backend -- any device that rotated activeWorker to this dead account during a past incident has no way back, and every MLBD detail/resolve call (which is worker-gated) fails instantly with it, surfacing as \"Couldn't load this title\". Pinning workers[] to one entry (workers.size<2) short-circuits probeWorkerFailover/reportWorkerFailure the same way backends was pinned. Re-add the old account only after it is confirmed off the free tier / under the cap.",
   "schema": 2,
   "backend": "https://api.hamyra.xyz",
   "backup": "https://api.hamyra.xyz",
@@ -9,8 +10,7 @@
   ],
   "worker": "https://hamyra-api.mdibrahimkhalil516.workers.dev",
   "workers": [
-    "https://hamyra-api.mdibrahimkhalil516.workers.dev",
-    "https://hamyra-api.aininjaibrahim.workers.dev"
+    "https://hamyra-api.mdibrahimkhalil516.workers.dev"
   ],
   "updated": "2026-11-11"
 }
