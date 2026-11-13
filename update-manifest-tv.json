@@ -1,9 +1,9 @@
 {
-  "versionCode": 1,
+  "versionCode": 2,
   "versionName": "1.0",
   "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.0-tv/Hamyra-TV.apk",
   "apkUrl32": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v1.0-tv/Hamyra-TV-32bit.apk",
-  "releaseNotes": "• First Android TV / Google TV release of Hamyra — built for your remote\n• Live sports with an All tab, and streams that play even outside Bangladesh\n• Movies & Series in HD (Hamyra HD + MovieBox), Hindi-dubbed preferred\n• Bongo free shows — Bachelor Point, Sultan Salahuddin — with an episode strip\n• Ad-free YouTube, right on the big screen\n• Auto Bangla subtitles on by default\n• 4K / HEVC playback with an automatic VLC fallback\n\nThank you for your support!",
+  "releaseNotes": "• Back button now works with ONE press everywhere — search, AI picks, and out of the player (no more double-press)\n• Pick any Season / Episode right inside the player — Settings → Episodes, or the new list button\n• Smoother, hang-free player: LibVLC starts only when a video truly can't be decoded, and Back never freezes it\n• Hamyra HD (Hindi) plays first on Hindi movies & series; Hindi audio by default\n• New pinned shows (Bachelor Point, Sultan Salahuddin) appear without clearing app data\n\nThank you for your support!",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
