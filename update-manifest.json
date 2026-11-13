@@ -2,7 +2,8 @@
   "versionCode": 14,
   "versionName": "2.1",
   "apkUrl": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v2.1/Hamyra.apk",
-  "releaseNotes": "â€¢ One unified player everywhere â€” HEVC / 4K now plays smoothly (a VLC engine kicks in automatically when your phone needs it, with the exact same controls)\nâ€¢ Auto Bangla subtitle on EVERY server â€” movies & series\nâ€¢ Hindi audio plays by default on dual-audio titles\nâ€¢ YouTube fallback â€” if a movie/natok isn't on our servers, it now plays from YouTube automatically\nâ€¢ Live TV fixed â€” thousands of channels are back; a channel that won't play now shows Next / Retry / Previous instead of getting stuck, and the list remembers your place when you go back\nâ€¢ Downloads show file size, language & format in a cleaner list\nâ€¢ Check for updates right inside Settings â†’ App update\nâ€¢ Offline downloads of HEVC files now play too\nâ€¢ Many speed & stability fixes\n\nThank you for your support!",
+  "apkUrl32": "https://github.com/Ibrahimkhalill/hamyra-releases/releases/download/v2.1/Hamyra-32bit.apk",
+  "releaseNotes": "• Smoother, hang-free player — the VLC engine now starts ONLY when your phone truly can't decode a video (slow or buffering streams no longer switch to it), and pressing Back never freezes the app\n• Hamyra HD (Hindi) now plays first on Hindi movies & series; Hindi audio is selected by default\n• Pull to refresh on Home — new pinned titles (Bachelor Point, Sultan Salahuddin) show up without clearing app data\n• MovieLinkBD titles now show only their own details and \"More like this\" — no more mismatched TMDB suggestions\n• Live TV & Sports players sit below the status bar, and the video box keeps one steady 16:9 size\n• HEVC / 4K plays smoothly with the same controls, auto Bangla subtitles on every server, YouTube fallback and many speed & stability fixes\n\nThank you for your support!",
   "forceUpdate": false,
   "minRequiredVersionCode": 1
 }
