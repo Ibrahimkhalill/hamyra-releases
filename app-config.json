@@ -8,9 +8,10 @@
   "backends": [
     "https://api.hamyra.xyz"
   ],
-  "worker": "https://hamyra-api.mdibrahimkhalil516.workers.dev",
+  "worker": "https://edge.hamyra.xyz",
   "workers": [
-    "https://hamyra-api.mdibrahimkhalil516.workers.dev"
+    "https://edge.hamyra.xyz"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-13",
+  "_note_2026-11-13": "Worker moved to our own custom domain edge.hamyra.xyz (zone hamyra.xyz) so a Cloudflare WAF rule can drop abusive callers BEFORE the Worker runs (two third-party Workers were costing ~2.3M invocations/day via the public workers.dev URL). Pinned to ONE entry on purpose: AppConfig's worker failover is one-way/sticky, and rotating to workers.dev would undo the move. The old workers.dev URL stays alive for old app builds + the old-account proxy."
 }
